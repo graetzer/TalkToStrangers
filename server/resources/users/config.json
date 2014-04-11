@@ -1,0 +1,21 @@
+{
+	"type": "UserCollection",
+	"properties": {
+		"facebookID": {
+			"name": "facebookID",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "facebookID",
+			"order": 0
+		},
+		"twitterID": {
+			"name": "twitterID",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "twitterID",
+			"order": 1
+		}
+	}
+}
