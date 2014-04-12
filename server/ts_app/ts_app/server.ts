@@ -31,6 +31,7 @@ io.sockets.on('connection', function (socket) {
         if (msg_queue.length > MAX_MSG_QUEUE_LEN) msg_queue.pop();
 
         var near_clients = clients.filter((val) => {
+            
             return distance([val.gps, clients[socket.id].gps]) <= clients[socket.id].max_dist;
         });
 

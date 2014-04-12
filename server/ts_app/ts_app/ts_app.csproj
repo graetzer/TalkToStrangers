@@ -19,6 +19,10 @@
   <ItemGroup>
     <Content Include="app.css" />
     <Content Include="default.htm" />
+    <TypeScriptCompile Include="server.ts" />
+    <TypeScriptCompile Include="definitions\node.d.ts" />
+    <TypeScriptCompile Include="definitions\socket.io.d.ts" />
+    <TypeScriptCompile Include="definitions\mongodb.d.ts" />
     <Content Include="web.config" />
   </ItemGroup>
   <ItemGroup>
